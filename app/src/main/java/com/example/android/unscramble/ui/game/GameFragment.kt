@@ -40,6 +40,7 @@ class GameFragment : Fragment() {
     // Create a ViewModel the first time the fragment is created.
     // If the fragment is re-created, it receives the same GameViewModel instance created by the
     // first fragment
+    private val viewModel: GameViewModel by viewModels()
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
